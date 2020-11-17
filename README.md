@@ -9,7 +9,7 @@ Notebooks 1 and 3 should work from almost any Jupyter notebook environment, but 
 
 Notebook 1 is configured to use an instance of the IBM FHIR Server running on IBM Cloud which has been loaded with sample data generated from the Synthea(TM) Patient Generator.
 
-Notebook 2 requires access to a Cloud Object Store with FHIR R4 resources from [SyntheticMass](https://synthea.mitre.org/downloads) and hosted on [Google Cloud](gs://gcp-fhir-demo-dataset-synthea).
+Notebook 2 requires access to a Cloud Object Store with FHIR R4 resources from [SyntheticMass](https://synthea.mitre.org/downloads).
 
 Notebook 3 builds a predictive model from Parquet files that are built in notebook 2 from features extracted from the FHIR resources.
 
