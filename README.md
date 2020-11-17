@@ -27,9 +27,9 @@ Clone or download the notebooks from this repo to your local system.
     ![register for IBM Cloud](images/1.register.png?raw=true)
 
 If you already have an IBMid, enter it on the right.
-If not, enter a valid email address on the left, agree to the terms, and click Next.
+If not, enter a valid email address on the left, agree to the terms, click *Next*, and check your email to complete the registration process.
 
-Continue to the Watson Studio dashboard.
+Once registered and logged in, continue to the Watson Studio dashboard.
 ![the watson studio dashboard](images/3.overview.png?raw=true)
 
 ### Create a project
