@@ -1,11 +1,11 @@
 # Let's Build: FHIR from Jupyter
 
-In this lab, we import the following Jupyter notebooks into IBM Watson Studio within IBM Cloud Pak for Data:
+In this lab, we import the following Jupyter notebooks into IBM Watson Studio within the IBM Cloud Pak for Data:
 1. The FHIR API
 2. FHIR in Spark
 3. Predictive Modeling
 
-Notebooks 1 and 3 should work from almost any Jupyter notebook environment, but notebook 2 uses Apache Spark to process bulk FHIR resources into a flattened dataframe and therefor must run in a Jupyter environment with access to spark.
+Notebooks 1 and 3 should work from almost any Jupyter notebook environment, but notebook 2 uses Apache Spark to process bulk FHIR resources into a dataframe and therefor must run in a Jupyter environment with access to Spark.
 
 Notebook 1 is configured to use an instance of the IBM FHIR Server running on IBM Cloud which has been loaded with sample data generated from the Synthea(TM) Patient Generator.
 
@@ -30,25 +30,27 @@ If you already have an IBMid, enter it on the right.
 If not, enter a valid email address on the left, agree to the terms, click *Next*, and check your email to complete the registration process.
 
 Once registered and logged in, continue to the Watson Studio dashboard.
-![the watson studio dashboard](images/3.overview.png?raw=true)
+![the watson studio dashboard](images/3.dashboard.png?raw=true)
 
 ### Create a project
 
-1. From the Watson Studio dashboard, click `New project +`
-    ![new project dialog](images/4.create-1.png?raw=true)
+1. From the IBM Cloud Pak for Data dashboard, click `New project +`
+    ![new project dialog](images/4.create-project-1.png?raw=true)
 2. Select `Create an empty project`
-    ![create a project](images/5.create-2.png?raw=true)
-3. Give the project a name (e.g. FHIR from Jupyter) and click `Add` to define a storage service
-    ![cloud object storage creation](images/6.create-3.png?raw=true)
-4. Select a plan (the free `Lite` plan should be fine) and click Create
+    ![create a project](images/5.create-project-2.png?raw=true)
+3. Give the project a name (e.g. *FHIR from Jupyter*) and click `Add` to define a storage service
+    ![create cloud object storage](images/6.create-storage.png?raw=true)
+4. Select a plan (the free `Lite` plan should be fine) and click `Create`
+5. Click `Refresh` to see your Cloud Object Storage instance appear and then click `Create`
 
-### Create an environment
-
-From the Project dashboard, click `Add to project +` and
-![create an environment](images/7.environment.png)
-
-Select `Default Spark 2.4 & Python 3.7`
+![project dashboard](images/7.project-dashboard.png)
 
 ### Create a notebook
 
-Create a notebook, select the `From file` tab, and import one of the notebook files downloaded in the [Download the notebooks section](#Download-the-notebooks).
+From the Project dashboard, click `Add to project +` and choose the `Notebook` asset type.
+![create a notebook](images/8.new-notebook.png?raw=true)
+
+Select the `From file` tab and select the `Default Spark 2.4 & Python 3.7` environment.
+Then, upload one of the notebook files that was downloaded in the [Download the notebooks section](#Download-the-notebooks) and click `Create`.
+
+Repeat this process for the other notebooks that you desire to load.
