@@ -11,7 +11,7 @@ Notebook 2 requires access to a Cloud Object Store with FHIR R4 resources from [
 
 Notebook 3 builds a predictive model from Parquet files that are built in notebook 2 from features extracted from the FHIR resources.
 
-Notebooks 1 should work from almost any Jupyter notebook environment, but notebooks 2 and 3 use Apache Spark to process bulk FHIR resources into a dataframe and therefor must run in a Jupyter environment with access to Spark.
+Notebook 1 should work from almost any Jupyter notebook environment, but notebooks 2 and 3 use Apache Spark to process bulk FHIR resources into a dataframe and therefor must run in a Jupyter environment with access to Spark.
 
 ## Getting started
 
