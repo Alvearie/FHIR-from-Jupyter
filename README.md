@@ -38,7 +38,7 @@ Once registered and logged in, continue to the Watson Studio dashboard.
     ![new project dialog](images/4.create-1.png?raw=true)
 2. Select `Create an empty project`
     ![create a project](images/5.create-2.png?raw=true)
-3. Given the project a name (e.g. FHIR from Jupyter) and click `Add` to define a storage service
+3. Give the project a name (e.g. FHIR from Jupyter) and click `Add` to define a storage service
     ![cloud object storage creation](images/6.create-3.png?raw=true)
 4. Select a plan (the free `Lite` plan should be fine) and click Create
 
