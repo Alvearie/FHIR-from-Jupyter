@@ -36,7 +36,7 @@ Once registered and logged in, continue to the Watson Studio dashboard.
 
 1. From the Watson Studio dashboard, click `New project +`
     ![new project dialog](images/4.create-1.png?raw=true)
-2. Select *Create an empty project*
+2. Select `Create an empty project`
     ![create a project](images/5.create-2.png?raw=true)
 3. Given the project a name (e.g. FHIR from Jupyter) and click `Add` to define a storage service
     ![cloud object storage creation](images/6.create-3.png?raw=true)
@@ -47,8 +47,8 @@ Once registered and logged in, continue to the Watson Studio dashboard.
 From the Project dashboard, click `Add to project +` and
 ![create an environment](images/7.environment.png)
 
-Select **Default Spark 2.4 & Python 3.7**
+Select `Default Spark 2.4 & Python 3.7`
 
 ### Create a notebook
 
-Create a notebook, select the **From file** tab, and import one of the notebook files downloaded in the [Download the notebooks section](#Download-the-notebooks).
+Create a notebook, select the `From file` tab, and import one of the notebook files downloaded in the [Download the notebooks section](#Download-the-notebooks).
