@@ -5,7 +5,7 @@ In this lab, we import the following Jupyter notebooks into IBM Watson Studio wi
 2. FHIR in Spark
 3. Predictive Modeling
 
-Notebook 1 is configured to use an instance of the [IBM FHIR Server](https://github.com/IBM/FHIR) (running on IBM Cloud) which has been loaded with sample data generated from the Synthea™️ Patient Generator.
+Notebook 1 is configured to use an instance of the [IBM FHIR Server](https://github.com/IBM/FHIR) (running on IBM Cloud) which has been loaded with sample data generated from the [Synthea™️ Patient Generator](https://github.com/synthetichealth/synthea).
 
 Notebook 2 requires access to a Cloud Object Store with FHIR R4 resources from [SyntheticMass](https://synthea.mitre.org/downloads).
 
